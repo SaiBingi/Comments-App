@@ -1,0 +1,122 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+.bg-container {
+  min-height: 100vh;
+  max-width: 90%;
+  margin: auto;
+}
+
+.heading {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-size: 42px;
+}
+
+.comments-image {
+  width: 330px;
+  height: 260px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.side-heading {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #475569;
+  font-weight: 500;
+}
+
+.input {
+  width: 100%;
+  border: 1px #cbd2d9 solid;
+  margin-bottom: 12px;
+  padding: 8px 12px 8px 12px;
+  border-radius: 4px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  outline: none;
+}
+
+.inputs-container {
+  width: 25%;
+}
+
+.button {
+  border: none;
+  border-radius: 4px;
+  color: #dee0e3;
+  background-color: #0284c7;
+  padding: 7px 15px 7px 15px;
+  font-family: 'Roboto';
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.comments-count {
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin-left: 8px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: #334155;
+  font-weight: 500;
+}
+
+.count {
+  padding: 2px 7px 3px 7px;
+  border-radius: 4px;
+  background-color: #0284c7;
+  color: #ffffff;
+  font-size: 13px;
+}
+
+.comments-container {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.hr-line {
+  height: 1px;
+  border-bottom: none;
+}
+
+@media screen and (max-width: 768px) {
+  .card-container {
+    flex-direction: column;
+  }
+
+  .inputs-container {
+    order: 1;
+    width: 100%;
+    margin-top: 10px;
+  }
+}
