@@ -48,6 +48,8 @@ class Comments extends Component {
   }
 
   onAddComment = () => {
+    event.preventDefault()
+    
     const {name, comment} = this.state
 
     const arraySize = initialContainerBackgroundClassNames.length
@@ -108,7 +110,7 @@ class Comments extends Component {
                 />
                 <button
                   className="button"
-                  type="button"
+                  type="submit"
                   onClick={this.onAddComment}
                 >
                   Add Comment
