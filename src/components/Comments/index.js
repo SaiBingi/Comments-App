@@ -140,7 +140,7 @@ class Comments extends Component {
               />
             ))}
           </ul>
-        </div>
+        </div> 
       </div>
     )
   }
